@@ -3,6 +3,8 @@ package org.example.animal.homeAnimals;
 import org.example.animal.HomeAnimal;
 
 public class Dog extends HomeAnimal {
+
+
     @Override
     public String toString() {
         return "Dog{" +
@@ -10,6 +12,7 @@ public class Dog extends HomeAnimal {
                 ", color='" + color + '\'' +
                 ", commands=" + commands +
                 ", dateBirth='" + dateBirth + '\'' +
+                ", view=" + view +
                 '}';
     }
 }
